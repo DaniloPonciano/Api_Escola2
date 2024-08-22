@@ -30,7 +30,3 @@ class ListaMatriculasCursoSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Matricula
 		fields = ['estudante_nome']
-
-
-
-
